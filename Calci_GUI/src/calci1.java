@@ -210,7 +210,7 @@ public class calci1 {
 		Button3.setBounds(222, 173, 89, 23);
 		frame.getContentPane().add(Button3);
 		
-		JButton ButtonDot = new JButton(".");
+		JButton ButtonDot = new JButton("Deci");
 		ButtonDot.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(TextBox1.getText().equals(""))
